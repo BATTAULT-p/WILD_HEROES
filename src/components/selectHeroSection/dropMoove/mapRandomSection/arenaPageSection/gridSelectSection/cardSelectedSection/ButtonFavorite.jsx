@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import "../../../../../../../SelectHeroes.css";
+import PicFavoriteCard from "../../../../../../../assets/img/CardFavoriteBack.png";
 
 const ButtonFavorite = ({ setFavorite, toSelected, favorite }) => {
   const NbButton = [1, 2];
@@ -27,7 +28,7 @@ const ButtonFavorite = ({ setFavorite, toSelected, favorite }) => {
             role="presentation"
             id={`favoriteButton0${button}`}
             className="favoriteButtons"
-            src="./src/assets/img/CardFavoriteBack.png"
+            src={PicFavoriteCard}
             alt="favoriteButton"
           />
         );

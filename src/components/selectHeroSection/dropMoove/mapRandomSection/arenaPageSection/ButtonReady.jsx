@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import sound4 from "../../../../../assets/sounds/getReadySound.mp3";
+import PicButtonReady from "../../../../../assets/img/readyButton.png";
 
 function play4() {
   new Audio(sound4).play();
@@ -40,7 +41,7 @@ const ButtonReady = ({ isShown, setIsShown, favorite }) => {
           onClick={play4}
           id="SelectHeroesReadyBt"
           className="zoomSelectHeroesReadyBt"
-          src="./src/assets/img/readyButton.png"
+          src={PicButtonReady}
           alt="IntroCard"
           onKeyDown=""
           role="presentation"
