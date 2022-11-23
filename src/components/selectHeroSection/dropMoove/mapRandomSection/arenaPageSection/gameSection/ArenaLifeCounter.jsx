@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import PicLifeCounterGlass from "../../../../../../assets/img/LifeCounterGlass.png";
+import PicLifeCounter from "../../../../../../assets/img/LifeCounter.png";
 
 const ArenaLifeCounter = ({
   computerLife,
@@ -7,15 +9,11 @@ const ArenaLifeCounter = ({
 }) => {
   return (
     <div id="lifecounter">
-      <img
-        id="lifecounterSupport"
-        src="./src/assets/img/LifeCounter.png"
-        alt="Life counter"
-      />
+      <img id="lifecounterSupport" src={PicLifeCounter} alt="Life counter" />
       <img id="FightThemeIcon" src={fightThemeIcone.img} alt="Fight theme" />
       <img
         id="lifecounterGlass"
-        src="./src/assets/img/LifeCounterGlass.png"
+        src={PicLifeCounterGlass}
         alt="Life counter glass"
       />
       <div id="score">

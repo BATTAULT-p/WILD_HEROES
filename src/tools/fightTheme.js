@@ -1,3 +1,12 @@
+import PicPower from "../assets/img/iconeFTPower.png"
+import PicAgility from "../assets/img/iconeFTAgility.png"
+import PicFight from "../assets/img/iconeFTFight.png"
+import PicIntelligency from "../assets/img/iconeFTIntelligency.png"
+import PicStamina from "../assets/img/iconeFTStamina.png"
+import PicStrenght from "../assets/img/iconeFTStrenght.png"
+import PicRandom from "../assets/img/iconeFTRandom.png"
+
+
 const allThemes = [
   "power",
   "speed",
@@ -10,29 +19,13 @@ const allThemes = [
 const randomTheme = allThemes[Math.floor(Math.random() * allThemes.length)];
 
 const fightTheme = [
-  { txt: "PWR", img: "../src/assets/img/iconeFTPower.png", theme: "power" },
-  { txt: "AGI", img: "../src/assets/img/iconeFTAgility.png", theme: "speed" },
-  { txt: "FGT", img: "../src/assets/img/iconeFTFight.png", theme: "combat" },
-  {
-    txt: "INT",
-    img: "../src/assets/img/iconeFTIntelligency.png",
-    theme: "intelligence",
-  },
-  {
-    txt: "STA",
-    img: "../src/assets/img/iconeFTStamina.png",
-    theme: "durability",
-  },
-  {
-    txt: "STR",
-    img: "../src/assets/img/iconeFTStrenght.png",
-    theme: "strength",
-  },
-  {
-    txt: "LUCK",
-    img: "../src/assets/img/iconeFTRandom.png",
-    theme: `${randomTheme}`,
-  },
+  { txt: "PWR", img: PicPower, theme: "power" },
+  { txt: "AGI", img: PicAgility, theme: "speed" },
+  { txt: "FGT", img: PicFight, theme: "combat" },
+  { txt: "INT", img: PicIntelligency, theme: "intelligence"},
+  { txt: "STA", img: PicStamina, theme: "durability"},
+  { txt: "STR", img: PicStrenght, theme: "strength"},
+  { txt: "LUCK", img: PicRandom, theme: `${randomTheme}`}
 ];
 
 export default fightTheme;
