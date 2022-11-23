@@ -1,194 +1,224 @@
+import Blink from "../assets/img/PicturesBlink.png";
+import Batman from "../assets/img/PicturesGood-Batman.png";
+import BlackPanther from "../assets/img/PicturesGood-BlackPanther.png";
+import BlackWidow from "../assets/img/PicturesGood-BlackWidow.png";
+import Bane from "../assets/img/PicturesBad-Bane.png";
+import BlackAdam from "../assets/img/PicturesBad-BlackAdam.png";
+import Carnage from "../assets/img/PicturesBad-Carnage.png";
+import CaptainAmerica from "../assets/img/PicturesGood-CaptainAmerica.png";
+import CaptainMarvel from "../assets/img/PicturesGood-CaptainMarvel.png";
+import Cyclops from "../assets/img/PicturesGood-Cyclops.png";
+import Deadpool from "../assets/img/PicturesGood-Deadpool.png";
+import Darkseid from "../assets/img/PicturesBad-Darkseid.png";
+import Doomsday from "../assets/img/PicturesBad-Doomsday.png";
+import HarleyQuinn from "../assets/img/PicturesBad-HarleyQuinn.png";
+import Joker from "../assets/img/PicturesBad-Joker.png";
+import Hellrider from "../assets/img/PicturesGood-Hellrider.png";
+import Ironman from "../assets/img/PicturesGood-Ironman.png";
+import Spiderman from "../assets/img/PicturesGood-Spiderman.png";
+import Superman from "../assets/img/PicturesGood-Superman.png";
+import LexLuthor from "../assets/img/PicturesBad-LexLuthor.png";
+import Loki from "../assets/img/PicturesBad-Loki.png";
+import Magneto from "../assets/img/PicturesBad-Magneto.png";
+import MisterSinister from "../assets/img/PicturesBad-MisterSinister.png";
+import Thor from "../assets/img/PicturesGood-Thor.png";
+import Wolverine from "../assets/img/PicturesGood-Wolverine.png";
+import WonderWoman from "../assets/img/PicturesGood-Wonderwoman.png";
+import Modok from "../assets/img/PicturesBad-Modok.png";
+import PoisonIvy from "../assets/img/PicturesBad-PoisonIvy.png";
+import Thanos from "../assets/img/PicturesBad-Thanos.png";
+
 const dataSelection = [
   {
     name: "",
     id: "",
-    img: "./src/assets/img/PicturesBlink.png",
+    img: Blink,
     isHidden: true,
   },
   {
     name: "Batman",
     id: 70,
-    img: "./src/assets/img/PicturesGood-Batman.png",
+    img: Batman,
     isHidden: false,
   },
   {
     name: "Balck Panther",
     id: 106,
-    img: "./src/assets/img/PicturesGood-BlackPanther.png",
+    img: BlackPanther,
     isHidden: false,
   },
   {
     name: "Black Widow",
     id: 107,
-    img: "./src/assets/img/PicturesGood-BlackWidow.png",
+    img: BlackWidow,
     isHidden: false,
   },
   {
     name: "Bane",
     id: 60,
-    img: "./src/assets/img/PicturesBad-Bane.png",
+    img: Bane,
     isHidden: false,
   },
   {
     name: "Black Adam",
     id: 95,
-    img: "./src/assets/img/PicturesBad-BlackAdam.png",
+    img: BlackAdam,
     isHidden: false,
   },
   {
     name: "Carnage",
     id: 162,
-    img: "./src/assets/img/PicturesBad-Carnage.png",
+    img: Carnage,
     isHidden: false,
   },
   {
     name: "",
     id: "",
-    img: "./src/assets/img/PicturesBlink.png",
+    img: Blink,
     isHidden: true,
   },
   {
     name: "Captain America",
     id: 149,
-    img: "./src/assets/img/PicturesGood-CaptainAmerica.png",
+    img: CaptainAmerica,
     isHidden: false,
   },
   {
     name: "Captain Marvel",
     id: 157,
-    img: "./src/assets/img/PicturesGood-CaptainMarvel.png",
+    img: CaptainMarvel,
     isHidden: false,
   },
   {
     name: "Cyclops",
     id: 196,
-    img: "./src/assets/img/PicturesGood-Cyclops.png",
+    img: Cyclops,
     isHidden: false,
   },
   {
     name: "Deadpool",
     id: 213,
-    img: "./src/assets/img/PicturesGood-Deadpool.png",
+    img: Deadpool,
     isHidden: false,
   },
   {
     name: "Darkseid",
     id: 204,
-    img: "./src/assets/img/PicturesBad-Darkseid.png",
+    img: Darkseid,
     isHidden: false,
   },
   {
     name: "Doomsday",
     id: 230,
-    img: "./src/assets/img/PicturesBad-Doomsday.png",
+    img: Doomsday,
     isHidden: false,
   },
   {
     name: "Harley Quinn",
     id: 309,
-    img: "./src/assets/img/PicturesBad-HarleyQuinn.png",
+    img: HarleyQuinn,
     isHidden: false,
   },
   {
     name: "Joker",
     id: 370,
-    img: "./src/assets/img/PicturesBad-Joker.png",
+    img: Joker,
     isHidden: false,
   },
   {
     name: "Hellrider",
     id: 280,
-    img: "./src/assets/img/PicturesGood-Hellrider.png",
+    img: Hellrider,
     isHidden: false,
   },
   {
     name: "Ironman",
     id: 346,
-    img: "./src/assets/img/PicturesGood-Ironman.png",
+    img: Ironman,
     isHidden: false,
   },
   {
     name: "Spiderman",
     id: 620,
-    img: "./src/assets/img/PicturesGood-Spiderman.png",
+    img: Spiderman,
     isHidden: false,
   },
   {
     name: "Superman",
     id: 644,
-    img: "./src/assets/img/PicturesGood-Superman.png",
+    img: Superman,
     isHidden: false,
   },
   {
     name: "Lex Luthor",
     id: 405,
-    img: "./src/assets/img/PicturesBad-LexLuthor.png",
+    img: LexLuthor,
     isHidden: false,
   },
   {
     name: "Loki",
     id: 414,
-    img: "./src/assets/img/PicturesBad-Loki.png",
+    img: Loki,
     isHidden: false,
   },
   {
     name: "Magneto",
     id: 423,
-    img: "./src/assets/img/PicturesBad-Magneto.png",
+    img: Magneto,
     isHidden: false,
   },
   {
     name: "Mister Sinister",
     id: 460,
-    img: "./src/assets/img/PicturesBad-MisterSinister.png",
+    img: MisterSinister,
     isHidden: false,
   },
   {
     name: "",
     id: "",
-    img: "./src/assets/img/PicturesBlink.png",
+    img: Blink,
     isHidden: true,
   },
   {
     name: "Thor",
     id: 659,
-    img: "./src/assets/img/PicturesGood-Thor.png",
+    img: Thor,
     isHidden: false,
   },
   {
     name: "Wolverine",
     id: 717,
-    img: "./src/assets/img/PicturesGood-Wolverine.png",
+    img: Wolverine,
     isHidden: false,
   },
   {
     name: "Wonderwoman",
     id: 720,
-    img: "./src/assets/img/PicturesGood-Wonderwoman.png",
+    img: WonderWoman,
     isHidden: false,
   },
   {
     name: "Modok",
     id: 463,
-    img: "./src/assets/img/PicturesBad-Modok.png",
+    img: Modok,
     isHidden: false,
   },
   {
     name: "Poison Ivy",
     id: 522,
-    img: "./src/assets/img/PicturesBad-PoisonIvy.png",
+    img: PoisonIvy,
     isHidden: false,
   },
   {
     name: "Thanos",
     id: 655,
-    img: "./src/assets/img/PicturesBad-Thanos.png",
+    img: Thanos,
     isHidden: false,
   },
   {
     name: "",
     id: "",
-    img: "./src/assets/img/PicturesBlink.png",
+    img: Blink,
     isHidden: true,
   },
 ];
