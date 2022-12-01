@@ -15,9 +15,11 @@ import "./App.css";
 
 const App = () => {
   const [heroes, setHeroes] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const getHeroesCallback = async () => {
     setHeroes(await GetHeroesAuthorized());
+    setLoading(false);
   };
 
   useEffect(() => {
@@ -27,7 +29,7 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home heroes={heroes} />} />
+        <Route path="/" element={<Home heroes={heroes} loading={loading} />} />
         <Route path="/Codex" element={<Codex heroes={heroes} />} />
         <Route path="/Codex/:id" element={<HeroDetails />} />
         <Route path="/Rules" element={<Rules />} />

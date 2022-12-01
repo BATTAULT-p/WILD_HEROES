@@ -1,6 +1,6 @@
-import video1 from "../assets/videos/Videomenuorules.mp4"
-import video2 from "../assets/videos/Videomenuorulesselection ‐ Réalisée avec Clipchamp.mp4"
-import video3 from "../assets/videos/Videomenuorulesselection ‐ Réalisée avec Clipchamp.mp4"
+import video1 from "../assets/videos/Videomenuorules.mp4";
+import video2 from "../assets/videos/Videomenuorulesselection ‐ Réalisée avec Clipchamp.mp4";
+import video3 from "../assets/videos/Videomenuorulesselection ‐ Réalisée avec Clipchamp.mp4";
 
 const DataRules = [
   {
