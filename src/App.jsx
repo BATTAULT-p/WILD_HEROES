@@ -19,11 +19,13 @@ const App = () => {
 
   const getHeroesCallback = async () => {
     setHeroes(await GetHeroesAuthorized());
-    setLoading(false);
   };
 
   useEffect(() => {
     getHeroesCallback();
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
   }, []);
 
   return (
