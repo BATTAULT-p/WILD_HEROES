@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import WarBack from "./assets/videos/homeBG.mp4";
 import ColumnMaster from "./components/home/ColumnMaster";
 import Eclair from "./components/home/Eclair";
+import Loading from "./Loading";
 
 const Home = ({ heroes, loading }) => {
   useEffect(() => {
@@ -12,7 +13,7 @@ const Home = ({ heroes, loading }) => {
   return (
     <div>
       {loading ? (
-        <h1>Loading ...</h1>
+        <Loading />
       ) : (
         <div className="home">
           <div className="main">

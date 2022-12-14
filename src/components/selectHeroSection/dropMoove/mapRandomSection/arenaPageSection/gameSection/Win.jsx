@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./endGame.css";
 import gif2 from "../../../../../../assets/img/win.gif";
+import buttonReplay from "../../../../../../assets/img/ReplayButton.png";
+import leaveButton from "../../../../../../assets/img/LeaveButton.png";
 import sound7 from "../../../../../../assets/sounds/winMusic.mp3";
 
 function play7() {
@@ -58,7 +60,7 @@ const Win = () => {
             initial={{ rotate: -20, scale: 0.1, opacity: 1 }}
             animate={{ rotate: 0, scale: 1, opacity: 1 }}
             exit={{ scale: 0, opacity: 1 }}
-            src="./src/assets/img/ReplayButton.png"
+            src={buttonReplay}
             alt="favoriteButton"
             onKeyDown=""
             role="presentation"
@@ -79,7 +81,7 @@ const Win = () => {
             initial={{ rotate: 20, scale: 0.1, opacity: 1 }}
             animate={{ rotate: 0, scale: 1, opacity: 1 }}
             exit={{ scale: 0, opacity: 1 }}
-            src="./src/assets/img/LeaveButton.png"
+            src={leaveButton}
             alt="favoriteButton"
             onKeyDown=""
             role="presentation"

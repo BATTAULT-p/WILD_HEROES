@@ -1,3 +1,31 @@
+.loading{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.zoom-in-zoom-out{animation: zoom-in-zoom-out 2s ease-out infinite;}   
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.loading img{
+  width: 20vw;
+  height: auto;
+ 
+}
+
 .home {
   height: 100vh;
 }
