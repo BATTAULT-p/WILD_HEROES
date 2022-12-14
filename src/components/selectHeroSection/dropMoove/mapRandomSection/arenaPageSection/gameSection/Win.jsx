@@ -6,6 +6,7 @@ import gif2 from "../../../../../../assets/img/win.gif";
 import buttonReplay from "../../../../../../assets/img/ReplayButton.png";
 import leaveButton from "../../../../../../assets/img/LeaveButton.png";
 import sound7 from "../../../../../../assets/sounds/winMusic.mp3";
+import background from "../../../../../../assets/img/fond-building.jpeg";
 
 function play7() {
   new Audio(sound7).play();
@@ -19,7 +20,7 @@ const Win = () => {
   }, []);
 
   return (
-    <div className="endGame">
+    <div className="endGame" style={`background-image:url(${background});`}>
       <motion.p
         transition={{
           duration: 0,
