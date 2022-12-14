@@ -20,7 +20,8 @@ const Win = () => {
   }, []);
 
   return (
-    <div className="endGame" style={`background-image:url(${background});`}>
+    <div className="endGame">
+      <img className="backgroundFinal" src={background} alt="background" />
       <motion.p
         transition={{
           duration: 0,

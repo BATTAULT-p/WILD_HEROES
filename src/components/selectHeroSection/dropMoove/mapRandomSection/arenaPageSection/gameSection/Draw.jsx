@@ -5,12 +5,14 @@ import "./endGame.css";
 import buttonReplay from "../../../../../../assets/img/ReplayButton.png";
 import leaveButton from "../../../../../../assets/img/LeaveButton.png";
 import gif3 from "../../../../../../assets/img/drawMatch.gif";
+import background from "../../../../../../assets/img/fond-building.jpeg";
 
 const Draw = () => {
   document.body.style.overflow = "hidden";
 
   return (
     <div className="endGame">
+      <img className="backgroundFinal" src={background} alt="background" />
       <motion.p
         transition={{
           duration: 0,

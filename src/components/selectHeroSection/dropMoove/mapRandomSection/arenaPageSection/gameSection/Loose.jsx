@@ -6,6 +6,7 @@ import gif1 from "../../../../../../assets/img/loose.gif";
 import buttonReplay from "../../../../../../assets/img/ReplayButton.png";
 import leaveButton from "../../../../../../assets/img/LeaveButton.png";
 import sound8 from "../../../../../../assets/sounds/looseMusic.mp3";
+import background from "../../../../../../assets/img/fond-building.jpeg";
 
 function play8() {
   new Audio(sound8).play();
@@ -20,6 +21,7 @@ const Loose = () => {
 
   return (
     <div className="endGame">
+      <img className="backgroundFinal" src={background} alt="background" />
       <motion.p
         transition={{
           duration: 0,
