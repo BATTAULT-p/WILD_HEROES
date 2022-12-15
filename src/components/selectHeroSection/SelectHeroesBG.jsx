@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import videoBG from "../../assets/videos/homeBG.mp4";
 
 const SelectHeroesBG = () => {
   document.body.style.overflow = "hidden";
@@ -16,7 +17,7 @@ const SelectHeroesBG = () => {
       animate={{ rotate: 0, scale: 1, opacity: 1 }}
     >
       <video loop autoPlay muted id="SelectHeroesBG">
-        <source src="/src/assets/videos/homeBG.mp4" type="video/mp4" />
+        <source src={videoBG} type="video/mp4" />
       </video>
     </motion.div>
   );
